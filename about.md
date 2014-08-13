@@ -26,7 +26,7 @@ Teams design and build a quadcopter to take part in various challenges in our of
 - Hovering within specific range of target 
 -	Land on specific target 
 -	Navigation through/around various obstacles 
--	
+
 All of the teams get a set budget, and build up and code the copter in their own time. There are teams from around the company with engineering and electronics experience and probably drones and wotnot too. Team Dogecopter is made up of humble coders. Our copter may not fly straight, but hell, we can fix that in code right?
 
 
@@ -39,17 +39,17 @@ All of the teams get a set budget, and build up and code the copter in their own
 - Conrad Jackson
 - Luke McHale-Jones
 
-*Doug* is the PM/Lead whatever. Like a true manager, his task seems to be to set up meetings and to repeat what everyone else said to make sure he’s understood what is going on, and some basic adding up. To be fair he also set up the Github repository, but no commits so far...
+**Doug** is the PM/Lead whatever. Like a true manager, his task seems to be to set up meetings and to repeat what everyone else said to make sure he’s understood what is going on, and some basic adding up. To be fair he also set up the Github repository, but no commits so far...
 
-*Rich* is our resident quadcopter expert. He’s built a few in his time, and lends an air of confidence to the whole project that masks the panic quite well.
+**Rich** is our resident quadcopter expert. He’s built a few in his time, and lends an air of confidence to the whole project that masks the panic quite well.
 
-*Gareth* is in charge of branding guidelines, and something complicated to do with image recognition. He’s the reason why there is both an Arduino and a Raspberry Pi on board.
+**Gareth** is in charge of branding guidelines, and something complicated to do with image recognition. He’s the reason why there is both an Arduino and a Raspberry Pi on board.
 
-*Henry* is our master fabricator, and will craft the team a quadcopter body so beautiful that quadcopters for miles around will want to work out which bit of a quadcopter is the bottom so that they can sniff it.
+**Henry** is our master fabricator, and will craft the team a quadcopter body so beautiful that quadcopters for miles around will want to work out which bit of a quadcopter is the bottom so that they can sniff it.
 
-*Conrad* is in charge of the entire Dogecopter Social Media platform. 
+**Conrad** is in charge of the entire Dogecopter Social Media platform. 
 
-*Luke* was discovered after a nationwide search to find Britain’s top Boris Johnson lookalike. He is currently Gareths assistant. We assume he is plotting to usurp Gareth, but don’t think he has the memes. 
+**Luke** was discovered after a nationwide search to find Britain’s top Boris Johnson lookalike. He is currently Gareths assistant. We assume he is plotting to usurp Gareth, but don’t think he has the memes. 
 
 (This whole section was written for that one pun. It's OK, you don't need to thank me)
 
@@ -61,7 +61,8 @@ It’s true that this meme has long past its sell by date no matter whether you 
 
 [urldoge]: http://knowyourmeme.com/memes/doge
 
-The Plan /// todo
+## The Plan 
+/// Add wow gannt
 
 <gannt>
 
