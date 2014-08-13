@@ -10,7 +10,9 @@ Before we start:
 --
 We’re playing around with this project in our spare time. In no way does this resemble the type or quality of work we carry out in our day jobs as members of the IS team at BMT. As a lot of what we do is a bit secret squirrel we don’t have much of a footprint on the web and this is like a verruca or other revolting foot metaphor.
 
-In short, if you are looking at this project and wondering if we are suitable employers or suppliers for you, please shut down your web browser and come and talk to us instead, or go to <www.bmtdsl.co.uk> to find out more. (That website is just a CMS though and not as cool as some of the awesome applications we do).
+In short, if you are looking at this project and wondering if we are suitable employers or suppliers for you, please shut down your web browser and come and talk to us instead, or go to [www.bmtdsl.co.uk][bmtweb] to find out more. (That website is just a CMS though and not as cool as some of the awesome applications we do).
+
+[bmtweb]: http://www.bmtdsl.co.uk
 
 With that massive caveat over, what’s this all about?
 
@@ -65,7 +67,9 @@ The Plan /// todo
 
 Contact us
 --
-We’re always on the lookout for new people to join our team. Hit us up at <www.twitter.com/BMTWebDevs> or whatever communication channel talented developers use nowadays.
+We’re always on the lookout for new people to join our team. Hit us up at [www.twitter.com/BMTWebDevs][urltwitter] or whatever communication channel talented developers use nowadays.
+
+[urltwitter]: https://www.twitter.com/BMTWebDevs
 
 Contributers:
 --
