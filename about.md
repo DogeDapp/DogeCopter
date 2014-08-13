@@ -34,6 +34,7 @@ All of the teams get a set budget, and build up and code the copter in their own
 - Richard Caunt
 - Gareth Williams
 - Henry Wood
+- Conrad Jackson
 - Luke McHale-Jones
 
 *Doug* is the PM/Lead whatever. Like a true manager, his task seems to be to set up meetings and to repeat what everyone else said to make sure he’s understood what is going on, and some basic adding up. To be fair he also set up the Github repository, but no commits so far...
@@ -43,6 +44,8 @@ All of the teams get a set budget, and build up and code the copter in their own
 *Gareth* is in charge of branding guidelines, and something complicated to do with image recognition. He’s the reason why there is both an Arduino and a Raspberry Pi on board.
 
 *Henry* is our master fabricator, and will craft the team a quadcopter body so beautiful that quadcopters for miles around will want to work out which bit of a quadcopter is the bottom so that they can sniff it.
+
+*Conrad* is in charge of the entire Dogecopter Social Media platform. 
 
 *Luke* was discovered after a nationwide search to find Britain’s top Boris Johnson lookalike. He is currently Gareths assistant. We assume he is plotting to usurp Gareth, but don’t think he has the memes. 
 
@@ -56,12 +59,12 @@ It’s true that this meme has long past its sell by date no matter whether you 
 
 [urldoge]: http://knowyourmeme.com/memes/doge
 
-The Plan
+The Plan /// todo
 
 <gannt>
 
 Contact us
-We’re always on the lookout for talented developers to join our team.
+We’re always on the lookout for new people to join our team. Hit us up at <https://twitter.com/BMTWebDevs> or whatever communication channel talented developers use nowadays.
 
 
 <ul>
