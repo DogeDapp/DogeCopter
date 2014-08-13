@@ -64,7 +64,7 @@ The Plan /// todo
 <gannt>
 
 Contact us
-We’re always on the lookout for new people to join our team. Hit us up at <https://twitter.com/BMTWebDevs> or whatever communication channel talented developers use nowadays.
+We’re always on the lookout for new people to join our team. Hit us up at <twitter.com/BMTWebDevs> or whatever communication channel talented developers use nowadays.
 
 
 <ul>
