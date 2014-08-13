@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-##Tl;dr version:##
+##Tl;dr version##
 Doge obsessed developers attempt to build a semi autonomous quadcopter on a budget for a competition in their spare time.
 
 Before we start:
@@ -28,7 +28,7 @@ Teams design and build a quadcopter to take part in various challenges in our of
 All of the teams get a set budget, and build up and code the copter in their own time. There are teams from around the company with engineering and electronics experience and probably drones and wotnot too. Team Dogecopter is made up of humble coders. Our copter may not fly straight, but hell, we can fix that in code right?
 
 
-##Team Dogecopter is made up of:##
+###Team Dogecopter is made up of:###
 
 - Doug McDonald (@dougajmcdonald)
 - Richard Caunt
@@ -53,7 +53,7 @@ All of the teams get a set budget, and build up and code the copter in their own
 
 ##Why “Dogecopter”?##
 
-It’s true that this meme has long past its sell by date no matter whether you count in doge years or internet years, but you may have noticed that [Doge][urldoge] lives on in the BMT Web dev team. No-one knows why Gareth is obsessed by Doge, but he’s infected half of the team with his obsession. The other half cringe and watch on as gif wars break out on email threads for days on end. 
+It’s true that this meme has long past its sell by date no matter whether you count in doge years or internet years, but you may have noticed that [Doge][urldoge] lives on in the BMT Web dev team. Blame Gareth. No-one knows why Gareth is obsessed by Doge, but he’s infected half of the team with his obsession. The other half cringe and watch on as gif wars break out on email threads for days on end. 
 
 
 
@@ -64,9 +64,11 @@ The Plan /// todo
 <gannt>
 
 Contact us
-We’re always on the lookout for new people to join our team. Hit us up at <twitter.com/BMTWebDevs> or whatever communication channel talented developers use nowadays.
+--
+We’re always on the lookout for new people to join our team. Hit us up at <www.twitter.com/BMTWebDevs> or whatever communication channel talented developers use nowadays.
 
-
+Contributers:
+--
 <ul>
 {% for contributor in site.github.contributors %}
   <li>
