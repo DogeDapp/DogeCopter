@@ -62,9 +62,9 @@ It’s true that this meme has long past its sell by date no matter whether you 
 [urldoge]: http://knowyourmeme.com/memes/doge
 
 ## The Plan 
-/// Add wow gannt
 
-<gannt>
+
+![Wow Gantt](images/gallery/gant.png "Gannt")
 
 Contact us
 --
