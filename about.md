@@ -57,7 +57,7 @@ All of the teams get a set budget, and build up and code the copter in their own
 
 It’s true that this meme has long past its sell by date no matter whether you count in doge years or internet years, but you may have noticed that [Doge][urldoge] lives on in the BMT Web dev team. Blame Gareth. No-one knows why Gareth is obsessed by Doge, but he’s infected half of the team with his obsession. The other half cringe and watch on as gif wars break out on email threads for days on end. 
 
-
+![Many doge](images/gallery/doge-so-gif.gif "So gif")
 
 [urldoge]: http://knowyourmeme.com/memes/doge
 
