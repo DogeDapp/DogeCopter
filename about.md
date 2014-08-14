@@ -81,3 +81,7 @@ Contributers:
   </li>
 {% endfor %}
 </ul>
+
+{% image_set images/gallery --class=img-responsive --container-tag=div --wrap-tag=div %}
+
+

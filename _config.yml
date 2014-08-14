@@ -45,13 +45,6 @@ url:
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: "/DogeCopter"
 
-gallerytag:
-    dir: images/gallery
-    url: /images/galleries
-    thumb_width: 150
-    thumb_height: 150
-    columns: 4
-
 #
 # !! You don't need to change any of the configuration flags below !!
 #
