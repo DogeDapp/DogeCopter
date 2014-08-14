@@ -39,7 +39,7 @@ All of the teams get a set budget, and build up and code the copter in their own
 - Conrad Jackson
 - Luke McHale-Jones
 
-**Doug** is the PM/Lead whatever. Like a true manager, his task seems to be to set up meetings and to repeat what everyone else said to make sure he’s understood what is going on, and some basic adding up. To be fair he also set up the Github repository, but no commits so far...
+**Doug** is the PM/Lead whatever. Like a true manager, his task seems to be to set up meetings and to repeat what everyone else said to make sure he’s understood what is going on, and some basic adding up. To be fair he also set up the Github repository, ~~but no commits so far...~~ *update:* commits made! Doug will need to do better in future!
 
 **Rich** is our resident quadcopter expert. He’s built a few in his time, and lends an air of confidence to the whole project that masks the panic quite well.
 
