@@ -6,13 +6,13 @@ author: Richard
 
 So this bunch of parts will soon turn into DogeCopter
 
-![Much Parts](../images/gallery/build/IMAG1251.jpg "Much Parts")
+![Much Parts](https://raw.githubusercontent.com/bmtwebdevs/DogeCopter/gh-pages/images/gallery/build/IMAG1251.jpg "Much Parts")
 
 First to solder 32 of these 2mm bullet connecters, 12 on the motors, 20 on the ESCs. 
 
 THEY'RE TINY AAARGH!
 
-![Much Wow](../images/gallery/build/IMAG1253.jpg "Much Wow")
+![Much Wow](https://raw.githubusercontent.com/bmtwebdevs/DogeCopter/gh-pages/images/gallery/build/IMAG1253.jpg "Much Wow")
 
 ![Much Wow](../images/gallery/build/IMAG1252.jpg "Much Wow")
 
@@ -54,7 +54,7 @@ Initial electronics check:
 
 ![Much Wow](../images/gallery/build/IMAG1269.jpg "Much Wow")
 
-![Much Wow](../images/gallery/build/VIDEO0027.mp4 "Much Wow")
+https://raw.githubusercontent.com/bmtwebdevs/DogeCopter/gh-pages/images/gallery/build/VIDEO0027.mp4
 
 This is the main flight controller (APM 2.6). If you look closely you'll see JP1 in the top left corner which needs bridging with solder.  On the left hand side, 4 pins need soldering in for connection to the RaspberryPi
 
