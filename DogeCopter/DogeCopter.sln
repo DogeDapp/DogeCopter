@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DogePython", "DogePython\DogePython.pyproj", "{0F1C1EEE-D7E0-454E-9673-A78122E67792}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{7E14C7B2-CE59-450F-8187-EFF385C15E9E}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Doug\Downloads\numpy-1.6.1.win32-py3.2.exe = C:\Users\Doug\Downloads\numpy-1.6.1.win32-py3.2.exe
+		C:\Users\Doug\Downloads\python-3.2.msi = C:\Users\Doug\Downloads\python-3.2.msi
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

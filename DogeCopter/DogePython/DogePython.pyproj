@@ -22,7 +22,40 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AbstractImage.py" />
     <Compile Include="DogePython.py" />
+    <Compile Include="Image.py" />
+    <Compile Include="UnitTestExample.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="C:\Python32\Lib\site-packages\numpy\core\multiarray.pyd">
+      <Name>multiarray.pyd</Name>
+      <PythonExtension>C:\Python32\Lib\site-packages\numpy\core\multiarray.pyd</PythonExtension>
+    </Reference>
+    <Reference Include="C:\Python32\Lib\site-packages\numpy\core\multiarray_tests.pyd">
+      <Name>multiarray_tests.pyd</Name>
+      <PythonExtension>C:\Python32\Lib\site-packages\numpy\core\multiarray_tests.pyd</PythonExtension>
+    </Reference>
+    <Reference Include="C:\Python32\Lib\site-packages\numpy\core\scalarmath.pyd">
+      <Name>scalarmath.pyd</Name>
+      <PythonExtension>C:\Python32\Lib\site-packages\numpy\core\scalarmath.pyd</PythonExtension>
+    </Reference>
+    <Reference Include="C:\Python32\Lib\site-packages\numpy\core\umath.pyd">
+      <Name>umath.pyd</Name>
+      <PythonExtension>C:\Python32\Lib\site-packages\numpy\core\umath.pyd</PythonExtension>
+    </Reference>
+    <Reference Include="C:\Python32\Lib\site-packages\numpy\core\umath_tests.pyd">
+      <Name>umath_tests.pyd</Name>
+      <PythonExtension>C:\Python32\Lib\site-packages\numpy\core\umath_tests.pyd</PythonExtension>
+    </Reference>
+    <Reference Include="C:\Python32\Lib\site-packages\numpy\core\_sort.pyd">
+      <Name>_sort.pyd</Name>
+      <PythonExtension>C:\Python32\Lib\site-packages\numpy\core\_sort.pyd</PythonExtension>
+    </Reference>
+    <Reference Include="C:\Python32\Lib\site-packages\numpy\numarray\_capi.pyd">
+      <Name>_capi.pyd</Name>
+      <PythonExtension>C:\Python32\Lib\site-packages\numpy\numarray\_capi.pyd</PythonExtension>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
