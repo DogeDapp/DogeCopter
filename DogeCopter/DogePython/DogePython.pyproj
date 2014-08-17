@@ -25,7 +25,7 @@
     <Compile Include="AbstractImage.py" />
     <Compile Include="DogePython.py" />
     <Compile Include="Image.py" />
-    <Compile Include="UnitTestExample.py" />
+    <Compile Include="UnitTest.py" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="C:\Python32\Lib\site-packages\numpy\core\multiarray.pyd">
