@@ -7,8 +7,9 @@ class DogeRace(object):
 
     def __init__(self):
 
-        self.ratio = 7 # as per Richs instructions
+        self.ratio = 70 # as per Richs instructions
         self.brakeDuration = 0.6 # we think this is enough to stop from 1m (approx)
+        self.speed = 1;
 
         # map scale should be adjusted for the course.
         # 1 assumes we're moving at 1 m/sec? (one square on the scaled floor plan)
@@ -18,7 +19,7 @@ class DogeRace(object):
         self.doge = DogeCopter.DogeCopter()
         self.doge.setupConnection()
 
-        self.mover = LocationManipulator.LocationManipulator(self.doge.v, self.ratio, self.brakeDuration)
+        self.mover = LocationManipulator.LocationManipulator(self.doge.v, self.ratio, self.brakeDuration, self.speed)
 
         self.createRaceRoute()
 
