@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0f1c1eee-d7e0-454e-9673-a78122e67792</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DogePython.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,10 +23,50 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AbstractImage.py" />
-    <Compile Include="DogePython.py" />
-    <Compile Include="Image.py" />
-    <Compile Include="UnitTest.py" />
+    <Compile Include="CircleLand.py" />
+    <Compile Include="DogeCopter.py" />
+    <Compile Include="DogeRace.py" />
+    <Compile Include="droneapi\lib\webapi_pb2.py" />
+    <Compile Include="droneapi\lib\WebClient.py" />
+    <Compile Include="droneapi\lib\__init__.py" />
+    <Compile Include="droneapi\module\api.py" />
+    <Compile Include="droneapi\module\__init__.py" />
+    <Compile Include="droneapi\__init__.py" />
+    <Compile Include="LocationManipulator.py" />
+    <Compile Include="Tests\DogeCopterTests.py" />
+    <Compile Include="Tests\LocationManipulatorTests.py" />
+    <Compile Include="Logger.py" />
+    <Compile Include="Tests\LoggerTests.py" />
+    <Compile Include="Mathinator.py" />
+    <Compile Include="pymavlink-master\examples\apmsetrate.py" />
+    <Compile Include="pymavlink-master\examples\bwtest.py" />
+    <Compile Include="pymavlink-master\examples\flightmodes.py" />
+    <Compile Include="pymavlink-master\examples\flighttime.py" />
+    <Compile Include="pymavlink-master\examples\magtest.py" />
+    <Compile Include="pymavlink-master\examples\mavgraph.py" />
+    <Compile Include="pymavlink-master\examples\mavlogdump.py" />
+    <Compile Include="pymavlink-master\examples\mavtest.py" />
+    <Compile Include="pymavlink-master\examples\mavtester.py" />
+    <Compile Include="pymavlink-master\examples\mavtogpx.py" />
+    <Compile Include="pymavlink-master\examples\sigloss.py" />
+    <Compile Include="pymavlink-master\fgFDM.py" />
+    <Compile Include="pymavlink-master\generator\gen_all.py" />
+    <Compile Include="pymavlink-master\generator\gen_MatrixPilot.py" />
+    <Compile Include="pymavlink-master\generator\mavgen.py" />
+    <Compile Include="pymavlink-master\generator\mavgen_c.py" />
+    <Compile Include="pymavlink-master\generator\mavgen_python.py" />
+    <Compile Include="pymavlink-master\generator\mavparse.py" />
+    <Compile Include="pymavlink-master\generator\mavtemplate.py" />
+    <Compile Include="pymavlink-master\generator\mavtestgen.py" />
+    <Compile Include="pymavlink-master\mavextra.py" />
+    <Compile Include="pymavlink-master\mavlink.py" />
+    <Compile Include="pymavlink-master\mavlinkv10.py" />
+    <Compile Include="pymavlink-master\mavutil.py" />
+    <Compile Include="pymavlink-master\mavwp.py" />
+    <Compile Include="pymavlink-master\scanwin32.py" />
+    <Compile Include="pymavlink-master\tools\mavplayback.py" />
+    <Compile Include="Rotation.py" />
+    <Compile Include="Tests\MathinatorTests.py" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="C:\Python32\Lib\site-packages\numpy\core\multiarray.pyd">
@@ -56,6 +97,78 @@
       <Name>_capi.pyd</Name>
       <PythonExtension>C:\Python32\Lib\site-packages\numpy\numarray\_capi.pyd</PythonExtension>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="droneapi\" />
+    <Folder Include="droneapi\lib\" />
+    <Folder Include="droneapi\module\" />
+    <Folder Include="Tests\" />
+    <Folder Include="pymavlink-master\" />
+    <Folder Include="pymavlink-master\APM_Mavtest\" />
+    <Folder Include="pymavlink-master\examples\" />
+    <Folder Include="pymavlink-master\generator\" />
+    <Folder Include="pymavlink-master\generator\C\" />
+    <Folder Include="pymavlink-master\generator\C\include_v0.9\" />
+    <Folder Include="pymavlink-master\generator\C\include_v1.0\" />
+    <Folder Include="pymavlink-master\generator\C\test\" />
+    <Folder Include="pymavlink-master\generator\C\test\posix\" />
+    <Folder Include="pymavlink-master\generator\C\test\windows\" />
+    <Folder Include="pymavlink-master\generator\message_definitions\" />
+    <Folder Include="pymavlink-master\generator\message_definitions\v0.9\" />
+    <Folder Include="pymavlink-master\generator\message_definitions\v1.0\" />
+    <Folder Include="pymavlink-master\tools\" />
+    <Folder Include="pymavlink-master\tools\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="droneapi\.gitignore" />
+    <Content Include="pymavlink-master\.gitignore" />
+    <Content Include="pymavlink-master\APM_Mavtest\APM_Mavtest.pde" />
+    <Content Include="pymavlink-master\APM_Mavtest\Makefile" />
+    <Content Include="pymavlink-master\APM_Mavtest\mavtest.h" />
+    <Content Include="pymavlink-master\generator\.gitignore" />
+    <Content Include="pymavlink-master\generator\C\include_v0.9\checksum.h" />
+    <Content Include="pymavlink-master\generator\C\include_v0.9\mavlink_helpers.h" />
+    <Content Include="pymavlink-master\generator\C\include_v0.9\mavlink_types.h" />
+    <Content Include="pymavlink-master\generator\C\include_v0.9\protocol.h" />
+    <Content Include="pymavlink-master\generator\C\include_v1.0\checksum.h" />
+    <Content Include="pymavlink-master\generator\C\include_v1.0\mavlink_helpers.h" />
+    <Content Include="pymavlink-master\generator\C\include_v1.0\mavlink_protobuf_manager.hpp" />
+    <Content Include="pymavlink-master\generator\C\include_v1.0\mavlink_types.h" />
+    <Content Include="pymavlink-master\generator\C\include_v1.0\protocol.h" />
+    <Content Include="pymavlink-master\generator\C\test\posix\.gitignore" />
+    <Content Include="pymavlink-master\generator\C\test\posix\Makefile" />
+    <Content Include="pymavlink-master\generator\C\test\posix\testmav.c" />
+    <Content Include="pymavlink-master\generator\C\test\windows\stdafx.cpp" />
+    <Content Include="pymavlink-master\generator\C\test\windows\stdafx.h" />
+    <Content Include="pymavlink-master\generator\C\test\windows\targetver.h" />
+    <Content Include="pymavlink-master\generator\C\test\windows\testmav.cpp" />
+    <Content Include="pymavlink-master\generator\C\test\windows\testmav.sln" />
+    <Content Include="pymavlink-master\generator\C\test\windows\testmav.suo" />
+    <Content Include="pymavlink-master\generator\C\test\windows\testmav.vcxproj" />
+    <Content Include="pymavlink-master\generator\gen_all.sh" />
+    <Content Include="pymavlink-master\generator\message_definitions\v0.9\ardupilotmega.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v0.9\common.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v0.9\minimal.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v0.9\pixhawk.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v0.9\slugs.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v0.9\test.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v0.9\ualberta.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v1.0\ardupilotmega.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v1.0\common.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v1.0\matrixpilot.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v1.0\minimal.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v1.0\pixhawk.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v1.0\slugs.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v1.0\test.xml" />
+    <Content Include="pymavlink-master\generator\message_definitions\v1.0\ualberta.xml" />
+    <Content Include="pymavlink-master\README.txt" />
+    <Content Include="pymavlink-master\tools\images\gtk-quit.gif" />
+    <Content Include="pymavlink-master\tools\images\media-playback-pause.gif" />
+    <Content Include="pymavlink-master\tools\images\media-playback-start.gif" />
+    <Content Include="pymavlink-master\tools\images\media-playback-stop.gif" />
+    <Content Include="pymavlink-master\tools\images\media-seek-backward.gif" />
+    <Content Include="pymavlink-master\tools\images\media-seek-forward.gif" />
+    <Content Include="pymavlink-master\tools\images\player_end.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
