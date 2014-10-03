@@ -6,9 +6,10 @@ class LocationManipulator(object):
     """moves the quad and shit"""
 
 
-    def __init__(self, v, ratio, brakeDuration):
+    def __init__(self, v, ratio, brakeDuration, sleep):
         self.v = v
         self.ratio = ratio
+        self.sleep = sleep
         self.brakeDuration = brakeDuration
         self.centrePoint = 1515
 
